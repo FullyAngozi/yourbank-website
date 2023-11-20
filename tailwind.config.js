@@ -1,4 +1,3 @@
-import flowbitePlugin from 'flowbite/plugin';
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -14,6 +13,8 @@ export default {
         "green2": "#D1FF4C",
         "green3": '#D8FF66',
         "green4": '#E5FF99',
+        "primarygray": "#1A1A1A",
+        "secondarygray": '#1C1C1C'
       },
       fontFamily: {
         lexend: ['Lexend', 'sans-serif'],
@@ -21,6 +22,6 @@ export default {
     },
   },
   plugins: [
-    flowbitePlugin,
+    require('flowbite/plugin')
   ],
 };
