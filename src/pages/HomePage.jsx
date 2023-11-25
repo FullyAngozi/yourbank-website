@@ -1,5 +1,6 @@
 import Hero from "../components/Hero"
 import OurProduct from "../components/OurProduct";
+import UseCases from "../components/UseCases";
 
 
 const HomePage = () => {
@@ -7,6 +8,7 @@ const HomePage = () => {
     <>
      <Hero />
      <OurProduct />
+     <UseCases />
     </>
   )
 }

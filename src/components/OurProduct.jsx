@@ -27,7 +27,7 @@ const OurProduct = () => {
         </div>
       </div>
       <div className=" sm:flex text-center ">
-        <div className=" border-b-2 sm:border-r-2 mb-10 sm:border-b-0 border-gray-200">
+        <div className=" border-b-2 sm:border-r-2 mb-10 sm:border-b-0 border-[#1e1f1e]">
           <img src={icon} alt=""   className=" mx-auto"/>
           <h2 className=" text-white p-4">Checking Accounts</h2>
           <p className=" text-white p-5">
@@ -36,7 +36,7 @@ const OurProduct = () => {
             mobile banking, debit cards, and free ATM access.
           </p>
         </div>
-        <div className=" border-b-2 sm:border-r-2 mb-10 sm:border-b-0 border-gray-200">
+        <div className=" border-b-2 sm:border-r-2 mb-10 sm:border-b-0 border-[#1e1f1e]">
           <img src={icon2} alt=""  className=" mx-auto"/>
           <h2 className=" text-white p-4">Savings Accounts</h2>
           <p className=" text-white p-5">

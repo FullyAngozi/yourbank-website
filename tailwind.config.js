@@ -14,7 +14,8 @@ export default {
         "green3": '#D8FF66',
         "green4": '#E5FF99',
         "primarygray": "#1A1A1A",
-        "secondarygray": '#1C1C1C'
+        "secondarygray": '#1C1C1C',
+        "text-gray": "#B3B3B3"
       },
       fontFamily: {
         lexend: ['Lexend', 'sans-serif'],
