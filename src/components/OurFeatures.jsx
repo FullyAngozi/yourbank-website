@@ -84,7 +84,7 @@ const OurFeatures = () => {
           >
             <li className="me-2" role="presentation">
               <button
-                className="inline-block p-4 border-b-2 rounded-t-lg focus:text-green1 focus:border-green1"
+                className="inline-block p-4 border-b-2  text-green1 hover:text-text-gray border-b-green1 rounded-t-lg focus:text-green1 focus:border-green1"
                 id="profile-tab"
                 data-tabs-target="#profile"
                 type="button"
@@ -97,7 +97,7 @@ const OurFeatures = () => {
             </li>
             <li className="me-2" role="presentation">
               <button
-                className="inline-block p-4 border-b-2 rounded-t-lg focus:text-green1 focus:border-green1"
+                className="inline-block p-4 border-b-2 text-green1 hover:text-text-gray border-b-green1 rounded-t-lg focus:text-green1 focus:border-green1"
                 id="dashboard-tab"
                 data-tabs-target="#dashboard"
                 type="button"
@@ -110,7 +110,7 @@ const OurFeatures = () => {
             </li>
             <li className="me-2" role="presentation">
               <button
-                className="inline-block p-4 border-b-2 rounded-t-lg focus:text-green1 focus:border-green1"
+                className="inline-block p-4 border-b-2 text-green1 hover:text-text-gray border-b-green1 rounded-t-lg focus:text-green1 focus:border-green1"
                 id="settings-tab"
                 data-tabs-target="#settings"
                 type="button"
