@@ -2,10 +2,13 @@ import logo from "../assets/logoDesktop.png";
 import footermail from "../assets/footermail.png";
 import footerphone from "../assets/footerphone.png";
 import footerlocation from "../assets/footerlocation.png";
+import facebookicon from "../assets/facebookicon.png";
+import twittericon from "../assets/twittericon.png";
+import linkedinicon from "../assets/linkedinicon.png";
 
 const Footer = () => {
   return (
-    <footer className=" text-white mt-10 bg-text-gray">
+    <footer className=" text-white mt-10 bg-secondarygray font-lexend">
       <div className="container mx-auto py-8 px-4">
         <div className="flex  flex-col items-center justify-between">
           <img src={logo} alt="Logo" className="h-8 mb-5" />
@@ -37,6 +40,26 @@ const Footer = () => {
             <img src={footerlocation} alt="" />
             <span>Somewhere in the World</span>
           </div>
+        </div>
+        <div className=" hidden  lg:block mt-5 rounded-full border-text-gray bg-primarygray p-4">
+            <div className=" flex justify-between items-center">
+                <div className=" flex items-center">
+                    <a href="" className=" bg-green1 p-2 rounded-full mr-3">
+                        <img src={facebookicon} alt="" />
+                    </a>
+                    <a href="" className=" bg-green1 p-2 rounded-full mr-3">
+                        <img src={twittericon} alt="" />
+                    </a>
+                    <a href="" className=" bg-green1 p-2 rounded-full mr-3">
+                        <img src={linkedinicon} alt="" />
+                    </a>
+                </div>
+                <span>YourBank All Rights Reserved</span>
+                <div className="">
+                    <span className=" border-r p-2">Privacy Policy</span>
+                    <span className=" ml-2">Terms of Service</span>
+                </div>
+            </div>
         </div>
       </div>
     </footer>

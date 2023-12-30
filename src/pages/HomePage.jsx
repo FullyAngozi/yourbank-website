@@ -1,6 +1,5 @@
 import CTA from "../components/CTA";
 import FAQ from "../components/FAQ";
-import Footer from "../components/Footer";
 import Hero from "../components/Hero"
 import OurFeatures from "../components/OurFeatures";
 import OurProduct from "../components/OurProduct";
@@ -18,7 +17,6 @@ const HomePage = () => {
      <FAQ />
      <Testimonail />
      <CTA />
-     <Footer />
     </>
   )
 }

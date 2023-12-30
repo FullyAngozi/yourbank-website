@@ -2,7 +2,7 @@ import { CustomCard } from "../CustomQuotes";
 import { CustomQuotes } from "../CustomQuotes";
 const Testimonail = () => {
   return (
-    <div className=" mt-5 font-lexend">
+    <div className=" mt-10 font-lexend">
       <div className=" text-center lg:text-left ">
         <h1 className=" font-lexend font-bold text-2xl lg:text-3xl text-white">Our <span className=" text-green1">Testimonials</span></h1>
         <div className=" lg:flex justify-between">
