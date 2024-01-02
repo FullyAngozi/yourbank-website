@@ -6,6 +6,7 @@ import abt from "./assets/abstract2.png";
 import Footer from './components/Footer';
 import 'flowbite'
 import CareerPage from './pages/CareerPage';
+import Security from './pages/Security';
 
 function App() {
  return (
@@ -18,6 +19,7 @@ function App() {
            <Route path="/" element={<HomePage />} />
            <Route path="/about" element={<AboutPage />} />
            <Route path="/career" element={<CareerPage />} />
+           <Route path='/security' element={<Security />} />
          </Routes>
          <Footer />
        </div>

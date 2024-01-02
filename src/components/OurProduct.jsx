@@ -5,7 +5,7 @@ import icon3 from "../assets/Icon2.png"
 const OurProduct = () => {
   return (
     <div className=" mt-10">
-      <h1 className=" font-bold text-2xl">
+      <h1 className=" font-bold text-4xl text-white">
         Our <span className=" text-green1">Products</span>
       </h1>
       <div className=" sm:flex justify-between items-center mb-28">

@@ -4,6 +4,7 @@ import cardimage3 from "./assets/aboutpageimage5.png"
 import cardimage4 from "./assets/aboutpageimage6.png"
 import careerpageheroimage from "./assets/careerpageheroimage.png"
 import aboutpageheroimage from "./assets/aboutpageheroimage.png";
+import securitypageheroimage from "./assets/securityheropageimage.png";
 
 export const aboutHeroContent1 = {
     title: ["Welcome to YourBank"],
@@ -21,6 +22,16 @@ export const CareerHeroContent = {
     subtitle: "",
     description: "Join our team and embark on a rewarding journey in the banking industry. At YourBank, we are committed to fostering a culture of excellence and providing opportunities for professional growth. With a focus on innovation, customer service, and integrity, we strive to make a positive impact in the lives of our customers and communities. Join us today and be a part of our mission to shape the future of banking.",
     image: careerpageheroimage,
+}
+
+export const SecurityHeroContent = {
+    title: [
+        "Your Security is Our ",
+        { text: "Top Priority", className: "text-green1" },
+        " Careers!"
+      ],
+      description: "At YourBank, we understand the importance of keeping your financial information secure. We employ robust security measures and advanced technologies to protect your personal and financial data. Rest assured that when you bank with us, your security is our utmost priority.",
+      image: securitypageheroimage
 }
 
 export const heroContent2 = {
