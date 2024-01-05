@@ -7,6 +7,8 @@ import Footer from './components/Footer';
 import 'flowbite'
 import CareerPage from './pages/CareerPage';
 import Security from './pages/Security';
+import Login from './pages/Login';
+import SignUp from './pages/SignUp';
 
 function App() {
  return (
@@ -20,6 +22,8 @@ function App() {
            <Route path="/about" element={<AboutPage />} />
            <Route path="/career" element={<CareerPage />} />
            <Route path='/security' element={<Security />} />
+           <Route path='/login' element={<Login />} />
+           <Route path='/signup' element={<SignUp />} />
          </Routes>
          <Footer />
        </div>

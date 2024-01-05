@@ -4,9 +4,9 @@ const Testimonail = () => {
   return (
     <div className=" mt-10 font-lexend">
       <div className=" text-center lg:text-left ">
-        <h1 className=" font-lexend font-bold text-2xl lg:text-3xl text-white">Our <span className=" text-green1">Testimonials</span></h1>
+        <h1 className=" font-lexend font-bold text-2xl lg:text-3xl text-white ">Our <span className=" text-green1">Testimonials</span></h1>
         <div className=" lg:flex justify-between">
-            <p className=" text-text-gray font-light max-w-2xl">Discover how YourBank has transformed lives with innovative digital solutions and personalized customer service. See why our clients trust us for a secure and prosperous financial journey</p>
+            <p className=" text-text-gray font-light max-w-2xl my-5 text-lg">Discover how YourBank has transformed lives with innovative digital solutions and personalized customer service. See why our clients trust us for a secure and prosperous financial journey</p>
             <div className=" text-center sm:flex items-center mt-3 mb-3">
                 <button className="text-black bg-green1 hover:bg-green2 focus:outline-none focus:ring-4 focus:bg-green2 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2">For Individuals</button>
                 <button className=" text-white">For Businesses</button>

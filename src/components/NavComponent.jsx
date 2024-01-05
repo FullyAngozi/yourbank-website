@@ -5,7 +5,7 @@ const NavComponent = () => {
 
   
   return (
-    <nav className="bg-secondarygray border-gray-200 dark:bg-gray-900 rounded-full">
+    <nav className="bg-secondarygray border-gray-200 dark:bg-gray-900 rounded-full z-50 p-5">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-3">
         <Link
           to="/"
@@ -19,18 +19,22 @@ const NavComponent = () => {
         
         </Link>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <button
-            type="button"
-            className="text-white  md:mr-2 focus:ring-4 focus:outline-none  font-medium rounded-full text-sm px-4 py-2 text-center"
-          >
-            Sign in
-          </button>
-          <button
-            type="button"
-            className="text-black bg-green1 hover:bg-green2 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-4 py-2 text-center"
-          >
-            Login
-          </button>
+          <Link to='signup'>
+            <button
+              type="button"
+              className="text-white  md:mr-2 focus:ring-4 focus:outline-none  font-medium rounded-full text-sm px-4 py-2 text-center"
+            >
+              Sign Up
+            </button>
+          </Link>
+          <Link to='login'>
+            <button
+              type="button"
+              className="text-black bg-green1 hover:bg-green2 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-4 py-2 text-center"
+            >
+              Login
+            </button>
+          </Link>
           <button
             data-collapse-toggle="navbar-cta"
             type="button"
@@ -60,11 +64,11 @@ const NavComponent = () => {
           className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
           id="navbar-cta"
         >
-          <ul className="flex flex-col font-medium p-4 md:p-6 mt-4 border md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className="flex flex-col font-medium p-4 md:p-6 mt-4 border md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 z-40">
            <li>
              <Link
                to="/"
-               className="block py-2 px-3 md:px-3 md:py2 text-white rounded-full md:hover:bg-gray-700 md:dark:text-blue-500"
+               className="block md:px-8 md:py-6 rounded-2xl hover:bg-green3 text-white  hover:text-black"
                aria-current="page"
              >
                Home
@@ -73,7 +77,7 @@ const NavComponent = () => {
            <li>
              <Link
                to="/career"
-               className="block py-2 px-3 md:px-3 md:py2 text-white rounded  hover:bg-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+               className="block py-2 px-3 md:px-8 md:py-6 rounded-2xl hover:bg-green3 text-white  hover:text-black dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
              >
                Careers
              </Link>
@@ -81,7 +85,7 @@ const NavComponent = () => {
            <li>
              <Link
                to="/about"
-               className="block py-2 px-3 md:px-3 md:py2 text-white rounded  hover:bg-gray-700 d:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+               className="block py-2 px-3 md:px-8 md:py-6 rounded-2xl hover:bg-green3 text-white d:dark:hover:text-blue-500  hover:text-black dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
              >
                About
              </Link>
@@ -89,7 +93,7 @@ const NavComponent = () => {
            <li>
              <Link
                to="/security"
-               className="block py-2 px-3 md:px-3 md:py2 text-white rounded  hover:bg-gray-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+               className="block py-2 px-3 md:px-8 md:py-6 rounded-2xl hover:bg-green3 text-white   hover:text-black md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
              >
                Security
              </Link>

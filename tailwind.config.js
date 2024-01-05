@@ -15,10 +15,14 @@ export default {
         primarygray: "#1A1A1A",
         secondarygray: "#1C1C1C",
         "text-gray": "#B3B3B3",
+        "lightergray": "#333333",
       },
       fontFamily: {
         lexend: ["Lexend", "sans-serif"],
       },
+      boxShadow: {
+        'custom': '10px 10px 5px 0px rgba(0,0,0,0.75)',
+      }
     },
   },
   plugins: [require("flowbite/plugin")],
