@@ -68,7 +68,7 @@ const NavComponent = () => {
            <li>
              <Link
                to="/"
-               className="block md:px-8 md:py-6 rounded-2xl hover:bg-green3 text-white  hover:text-black"
+               className="block md:px-8 md:py-6 rounded-2xl hover:bg-green3 text-white   hover:text-black"
                aria-current="page"
              >
                Home
